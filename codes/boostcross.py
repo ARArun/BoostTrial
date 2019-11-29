@@ -2,8 +2,6 @@
 
 import pandas as pd
 from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
 
 #read and process data
 data = pd.read_csv('../data/pima-indians-diabetes.csv', header=None)
